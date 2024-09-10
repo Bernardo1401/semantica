@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Sobre</h1>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-list"><a href="../index.html" class="nav-link">Home</a></li>
+                <li class="nav-list"><a href="../pages/sobre.html" class="nav-link">Sobre</a></li>
+                <li class="nav-list"><a href="../pages/contato.html" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+    <section class="about-section">
+        <h2 class="section-title">Fale conosco</h2>
+        <p class="section-text">Se você tiver alguma sugestão, dúvida ou comentário, por favor preencha o formulário abaixo. Estamos sempre abertos para ouvir o que você tem a dizer .</p>
+        <form action="" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="nome" class="form-label">Nome:</label>
+                <input type="text" name="nome" id="nome" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" name="email" id="email" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mensagem" class="form-label">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" class="form-textarea" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="form-button">Enviar</button>
+
+        </form>
+    </section>
+    </main>
+    <footer class="site-footer">
+        <address class="contact-info">
+            <p class="author-name">Autor: Bernardo Marques</p>
+            <p class="author-email">Email <a href="mailto:bernardo.g.marques@aluno.senai.br" class="email-link">bernardo.g.marques@aluno.senai.br</a></p>
+        </address>
+        <p class="footer-copy">&copy; 2024 meu site. Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
